@@ -1,0 +1,5 @@
+#ignores all solution files made by visual studios
+*.sln
+*.sdf
+*.vxcproj
+*.filters
