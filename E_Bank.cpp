@@ -23,12 +23,12 @@ void E_Bank::request(list<People> new_requests)
 
 				if (pit->current < lit->current && lit->direction() == 1)
 				{
-					lit->add_stop(pit->current);
+					lit->add_stop(*pit);
 					accepted = true;
 				}
 				else if (pit->current > lit->current && lit->direction() == 2)
 				{
-					lit->add_stop(pit->current);
+					lit->add_stop(*pit);
 					accepted = true;
 				}
 			}
