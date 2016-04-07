@@ -1,7 +1,7 @@
 //Jacob Bothell
 //CS303-Project-2
 
-//Due 4-6-16
+//Due 3-25-16
 
 #include"People.h"
 #include"Ele.h"
@@ -13,7 +13,6 @@ using namespace std;
 class E_Bank
 {
 private:
-	int num_ele;
 	list<People> req;
 	list<Ele> lifts;
 
