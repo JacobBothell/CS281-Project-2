@@ -18,6 +18,7 @@ int Ele::direction() {
 
 void Ele::setDirection(int d) {
     dir = d;
+    return;
 }
 
 int Ele::waitTime() {
